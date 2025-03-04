@@ -2,6 +2,28 @@ body {
   font-family: "Martel Sans", serif;
 }
 
+/*  
+  
+
+  css grid container
+    display grid
+      mobile
+        columns 1fr
+        auto rows
+        padding 16px
+
+      desktop
+        padding: 32px
+
+    inner flexbox & children
+      mobile gap: 48px
+*/
+
+/* Fluid font-sizing
+  fallback font size in case browser doesnt support
+  clamp rule to declare min, max, and preferred font size
+*/
+
 /* Martel Sans: CSS classes */
 
 .martel-sans-extralight {
