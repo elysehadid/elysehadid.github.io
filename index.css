@@ -2,24 +2,47 @@ body {
   font-family: "Martel Sans", serif;
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 3rem 0rem;
+  text-wrap: balance;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 1.5rem 0rem;
+  text-wrap: balance;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0rem;
+  text-wrap: balance;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
 .grid {
   columns: 1fr;
   display: grid;
-  padding: 16px;
+  padding: 1rem;
   rows: auto;
 }
 
 .flex {
   display: flex;
   flex-direction: column;
-  gap: 48px;
-}
+  gap: 3rem;
 
-h1 {
-  font-size: 4rem;
-  font-weight: 700;
-  margin: 3rem 0rem;
-  text-wrap: balance;
+  /* Apply bottom margin if paragraph has siblings. */
+  p:not(:only-child) {
+    margin-bottom: 1rem;
+  }
 }
 
 /*  
