@@ -2,9 +2,27 @@ body {
   font-family: "Martel Sans", serif;
 }
 
-/*  
-  
+.grid {
+  columns: 1fr;
+  display: grid;
+  padding: 16px;
+  rows: auto;
+}
 
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 3rem 0rem;
+  text-wrap: balance;
+}
+
+/*  
   css grid container
     display grid
       mobile
