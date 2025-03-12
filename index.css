@@ -3,6 +3,27 @@ html {
   font-family: "Martel Sans", serif;
 }
 
+/*
+body div
+ desktop: media @ min-width 1024
+  max width: 1100px/68.75rem
+    left/right padding
+    display: grid
+    template columns: 2fr 1fr
+    template rows: auto auto??
+    template area: "main sidebar"
+    gap: 4rem 6rem
+
+    main
+      grid-area: main
+
+    footer
+      grid-area: sidebar
+
+    mobile
+      unset grid
+*/
+
 h1 {
   font-size: 3rem;
   font-weight: 800;
@@ -50,3 +71,8 @@ li {
     margin-bottom: 1rem;
   }
 }
+
+/* 
+Sidebar
+
+*/
