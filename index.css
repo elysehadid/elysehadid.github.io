@@ -47,10 +47,10 @@ li {
 }
 
 .grid {
-  columns: 1fr;
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
   padding: 1rem;
-  rows: auto;
 }
 
 .flex {
