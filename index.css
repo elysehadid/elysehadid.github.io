@@ -3,26 +3,18 @@ html {
   font-family: "Martel Sans", serif;
 }
 
-/*
-body div
- desktop: media @ min-width 1024
-  max width: 1100px/68.75rem
-    left/right padding
-    display: grid
-    template columns: 2fr 1fr
-    template rows: auto auto??
-    template area: "main sidebar"
-    gap: 4rem 6rem
+.layout {
+  @media screen and (min-width: 1100px) {
+    margin-inline: auto;
+    max-width: 68.75rem;
+    width: 100%;
 
-    main
-      grid-area: main
-
-    footer
-      grid-area: sidebar
-
-    mobile
-      unset grid
-*/
+    display: grid;
+    gap: 4rem 6em;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+  }
+}
 
 h1 {
   font-size: 3rem;
