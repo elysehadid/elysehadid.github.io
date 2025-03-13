@@ -3,6 +3,26 @@ html {
   font-family: "Martel Sans", serif;
 }
 
+.layout {
+  @media screen and (min-width: 1100px) {
+    margin-inline: auto;
+    max-width: 68.75rem;
+    padding: 3rem 0;
+    width: 100%;
+
+    display: grid;
+    gap: 4rem 6em;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+
+    footer {
+      height: 50%;
+      position: sticky;
+      top: 3rem;
+    }
+  }
+}
+
 h1 {
   font-size: 3rem;
   font-weight: 800;
@@ -34,10 +54,10 @@ li {
 }
 
 .grid {
-  columns: 1fr;
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
   padding: 1rem;
-  rows: auto;
 }
 
 .flex {
