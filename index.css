@@ -149,3 +149,25 @@ li {
   text-decoration: none;
   width: fit-content;
 }
+
+.card_volunteer_list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+.card_volunteer {
+  background-color: #5bcefa;
+  border-radius: 1.25rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  padding: 1.5rem;
+
+  h3 {
+    font-weight: bold;
+  }
+
+  li {
+    text-decoration: none;
+  }
+}
