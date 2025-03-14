@@ -100,7 +100,7 @@ li {
   @media screen and (min-width: 650px) {
     align-items: center;
     flex-direction: row;
-    gap: 3rem;
+    gap: 1.5rem;
     min-height: 300px;
   }
 
@@ -147,5 +147,38 @@ li {
   font-weight: bold;
   padding: 0.75rem 1.5rem;
   text-decoration: none;
-  width: fit-content;
+}
+
+.card_volunteer_list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+
+  @media screen and (min-width: 650px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+}
+
+.card_volunteer {
+  background-color: #5bcefa;
+  border-radius: 1.25rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  padding: 1.5rem;
+
+  h3 {
+    font-weight: bold;
+  }
+
+  li {
+    text-decoration: none;
+  }
+
+  @media screen and (min-width: 650px) {
+    flex-basis: 45%;
+    margin: 0;
+  }
 }
