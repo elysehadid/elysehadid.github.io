@@ -5,7 +5,8 @@ html {
 
 h1,
 h2,
-h3 {
+h3,
+li {
   margin: 1.5rem 0rem;
 }
 
@@ -38,7 +39,6 @@ p:not(:only-child) {
 
 li {
   font-size: 1.125rem;
-  margin-bottom: 0.5rem;
 }
 
 .layout {
