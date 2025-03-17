@@ -41,6 +41,17 @@ li {
   font-size: 1.125rem;
 }
 
+.visually-hidden {
+  /* From the a11y project: https://www.a11yproject.com/posts/how-to-hide-content/ */
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 .layout {
   @media screen and (min-width: 1100px) {
     margin-inline: auto;
@@ -138,7 +149,7 @@ li {
   border-bottom-right-radius: 1.25rem;
 }
 
-.card_project_link {
+.button_link {
   border-radius: 5.25rem;
   border: 3px solid black;
   color: black;
@@ -147,6 +158,7 @@ li {
   font-weight: bold;
   padding: 0.75rem 1.5rem;
   text-decoration: none;
+  width: fit-content;
 }
 
 .card_volunteer_list {
@@ -181,4 +193,32 @@ li {
     flex-basis: 45%;
     margin: 0;
   }
+}
+
+.contact_info_links {
+  padding: 0;
+  list-style-type: none;
+
+  li > a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.contact_info_list {
+  font-size: 1rem;
+  list-style-type: none;
+  padding: 0;
+
+  a {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.social_media_list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
 }
