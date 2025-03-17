@@ -1,6 +1,7 @@
 html {
   font-size: 16px;
   font-family: "Martel Sans", serif;
+  background-color: #ffffff;
 }
 
 h1,
@@ -39,6 +40,27 @@ p:not(:only-child) {
 
 li {
   font-size: 1.125rem;
+}
+
+.copy {
+  h1,
+  h2,
+  h3 {
+    color: #6e0070;
+  }
+
+  p,
+  li {
+    color: #262626;
+  }
+
+  /* use css variables later */
+}
+
+.name {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-underline-offset: 0.5rem;
 }
 
 .visually-hidden {
