@@ -63,6 +63,21 @@ li {
   text-underline-offset: 0.5rem;
 }
 
+.baby_blue {
+  color: #07222c;
+  background-color: #5bcefa;
+}
+
+.pink {
+  background-color: #f5a9b8;
+  color: #370b0f;
+}
+
+.white {
+  color: #262626;
+  background-color: white;
+}
+
 .visually-hidden {
   /* From the a11y project: https://www.a11yproject.com/posts/how-to-hide-content/ */
   clip: rect(0 0 0 0);
@@ -119,7 +134,6 @@ li {
 }
 
 .card_project {
-  background-color: #5bcefa;
   border-radius: 1.25rem;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   display: flex;
@@ -166,7 +180,8 @@ li {
 }
 
 .card_project_body {
-  background-color: #5bcefa;
+  background-color: inherit;
+  color: inherit;
   border-bottom-left-radius: 1.25rem;
   border-bottom-right-radius: 1.25rem;
 }
