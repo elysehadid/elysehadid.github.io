@@ -195,10 +195,25 @@ li {
   }
 }
 
+.contact_info_links {
+  padding: 0;
+  list-style-type: none;
+
+  li > a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+  }
+}
+
 .contact_info_list {
   font-size: 1rem;
   list-style-type: none;
   padding: 0;
+
+  a {
+    margin-bottom: 1.5rem;
+  }
 }
 
 .social_media_list {
