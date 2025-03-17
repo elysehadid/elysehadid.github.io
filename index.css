@@ -41,6 +41,17 @@ li {
   font-size: 1.125rem;
 }
 
+.visually-hidden {
+  /* From the a11y project: https://www.a11yproject.com/posts/how-to-hide-content/ */
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 .layout {
   @media screen and (min-width: 1100px) {
     margin-inline: auto;
@@ -184,13 +195,15 @@ li {
   }
 }
 
-.visually-hidden {
-  /* From the a11y project: https://www.a11yproject.com/posts/how-to-hide-content/ */
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+.contact_info_list {
+  font-size: 1rem;
+  list-style-type: none;
+  padding: 0;
+}
+
+.social_media_list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
 }
