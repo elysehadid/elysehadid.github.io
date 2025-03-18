@@ -339,7 +339,8 @@ li {
     color: #e9d8f3;
   }
 
-  p:last-child {
+  small,
+  .social_media_list li a {
     font-size: 0.875rem;
   }
 }
