@@ -97,6 +97,18 @@ li {
   }
 }
 
+.purple {
+  color: #6e0070;
+  background-color: white;
+
+  a:hover,
+  a:focus {
+    background-color: #6e0070;
+    border-color: #6e0070;
+    color: #ffffff;
+  }
+}
+
 .visually-hidden {
   /* From the a11y project: https://www.a11yproject.com/posts/how-to-hide-content/ */
   clip: rect(0 0 0 0);
