@@ -132,7 +132,7 @@ li {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto auto;
 
-    footer {
+    aside {
       height: 50%;
       position: sticky;
       top: 3rem;
@@ -325,6 +325,14 @@ li {
   justify-content: space-between;
   list-style-type: none;
   padding: 0;
+
+  @media screen and (min-width: 650px) {
+    justify-content: start;
+
+    li {
+      margin-right: 1rem;
+    }
+  }
 }
 
 .contact_footer {
@@ -342,6 +350,24 @@ li {
   small,
   .social_media_list li a {
     font-size: 0.875rem;
+  }
+
+  @media screen and (min-width: 650px) {
+    padding: 3rem 0;
+
+    .grid {
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      justify-items: center;
+    }
+  }
+
+  @media screen and (min-width: 1100px) {
+    padding: 3rem 0;
+
+    .grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
   }
 }
 
