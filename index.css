@@ -53,29 +53,48 @@ li {
   li {
     color: #262626;
   }
-
-  /* use css variables later */
 }
 
 .name {
   text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration-color: #e9d8f3;
   text-underline-offset: 0.5rem;
 }
 
 .baby_blue {
   color: #07222c;
   background-color: #5bcefa;
+
+  a:hover,
+  a:focus {
+    background-color: #07222c;
+    border-color: #07222c;
+    color: #ffffff;
+  }
 }
 
 .pink {
   background-color: #f5a9b8;
   color: #370b0f;
+
+  a:hover,
+  a:focus {
+    background-color: #370b0f;
+    border-color: #370b0f;
+    color: #ffffff;
+  }
 }
 
 .white {
   color: #262626;
   background-color: white;
+
+  a:hover,
+  a:focus {
+    background-color: #262626;
+    border-color: #262626;
+    color: #ffffff;
+  }
 }
 
 .visually-hidden {
@@ -205,6 +224,11 @@ li {
   padding: 0.75rem 1.5rem;
   text-decoration: none;
   width: fit-content;
+}
+
+.button_link:hover::after,
+.button_link:focus::after {
+  content: " →";
 }
 
 .card_volunteer_list {
