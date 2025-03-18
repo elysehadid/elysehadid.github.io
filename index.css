@@ -222,9 +222,10 @@ li {
 }
 
 .card_volunteer {
-  background-color: #5bcefa;
+  background-color: #6e0070;
   border-radius: 1.25rem;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  color: #ffffff;
   padding: 1.5rem;
 
   h3 {
@@ -233,6 +234,36 @@ li {
 
   li {
     text-decoration: none;
+  }
+
+  /* Link states */
+
+  a {
+    color: #ffffff;
+    text-underline-offset: 0.25rem;
+  }
+
+  a:visited {
+    color: #e9d8f3;
+    font-weight: bold;
+  }
+
+  a:active {
+    color: #fad1d9;
+    font-style: italic;
+  }
+
+  a:hover {
+    color: #ffffff;
+    font-weight: bold;
+    text-underline-offset: 0.5rem;
+  }
+
+  a:focus {
+    border-spacing: 0.5rem;
+    border: 0.5rem solid ##ffffff;
+    color: #ffffff;
+    font-weight: bold;
   }
 
   @media screen and (min-width: 650px) {
