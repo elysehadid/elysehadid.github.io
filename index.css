@@ -1,6 +1,7 @@
 html {
   font-size: 16px;
   font-family: "Martel Sans", serif;
+  background-color: #ffffff;
 }
 
 h1,
@@ -41,6 +42,101 @@ li {
   font-size: 1.125rem;
 }
 
+.copy {
+  h1,
+  h2,
+  h3 {
+    color: #6e0070;
+  }
+
+  p,
+  li {
+    color: #262626;
+  }
+
+  a {
+    color: #262626;
+    text-underline-offset: 0.25rem;
+  }
+
+  a:visited {
+    color: #6e0070;
+    font-weight: bold;
+  }
+
+  a:active {
+    color: #370b0f;
+    font-style: italic;
+  }
+
+  a:hover {
+    color: #262626;
+    font-weight: bold;
+    text-underline-offset: 0.5rem;
+  }
+
+  a:focus {
+    border-spacing: 0.5rem;
+    border: 0.5rem solid ##262626;
+    color: #262626;
+    font-weight: bold;
+  }
+}
+
+.name {
+  text-decoration: underline;
+  text-decoration-color: #e9d8f3;
+  text-underline-offset: 0.5rem;
+}
+
+.baby_blue {
+  color: #07222c;
+  background-color: #5bcefa;
+
+  a:hover,
+  a:focus {
+    background-color: #07222c;
+    border-color: #07222c;
+    color: #ffffff;
+  }
+}
+
+.pink {
+  background-color: #f5a9b8;
+  color: #370b0f;
+
+  a:hover,
+  a:focus {
+    background-color: #370b0f;
+    border-color: #370b0f;
+    color: #ffffff;
+  }
+}
+
+.white {
+  color: #262626;
+  background-color: white;
+
+  a:hover,
+  a:focus {
+    background-color: #262626;
+    border-color: #262626;
+    color: #ffffff;
+  }
+}
+
+.purple {
+  color: #6e0070;
+  background-color: white;
+
+  a:hover,
+  a:focus {
+    background-color: #6e0070;
+    border-color: #6e0070;
+    color: #ffffff;
+  }
+}
+
 .visually-hidden {
   /* From the a11y project: https://www.a11yproject.com/posts/how-to-hide-content/ */
   clip: rect(0 0 0 0);
@@ -64,7 +160,7 @@ li {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto auto;
 
-    footer {
+    aside {
       height: 50%;
       position: sticky;
       top: 3rem;
@@ -97,12 +193,10 @@ li {
 }
 
 .card_project {
-  background-color: #5bcefa;
   border-radius: 1.25rem;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   flex-direction: column;
-  padding: 1.5rem;
 
   h3 {
     font-weight: bold;
@@ -113,10 +207,12 @@ li {
     flex-direction: row;
     gap: 1.5rem;
     min-height: 300px;
+    padding: 1.5rem;
   }
 
   @media screen and (min-width: 1100px) {
     flex-direction: column;
+    padding: 0;
   }
 }
 
@@ -136,29 +232,43 @@ li {
   width: 100%;
 
   @media screen and (min-width: 650px) {
-    border-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
     height: auto;
     width: 100%;
   }
+
+  @media screen and (min-width: 1100px) {
+    /* Remove bottom borders set by tablet view */
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
 }
 
 .card_project_body {
-  background-color: #5bcefa;
+  background-color: inherit;
   border-bottom-left-radius: 1.25rem;
   border-bottom-right-radius: 1.25rem;
+  color: inherit;
+  padding: 1.5rem;
 }
 
 .button_link {
   border-radius: 5.25rem;
-  border: 3px solid black;
-  color: black;
+  border: 3px solid;
+  color: inherit;
   display: block;
   font-size: 1.25rem;
   font-weight: bold;
   padding: 0.75rem 1.5rem;
   text-decoration: none;
   width: fit-content;
+}
+
+.button_link:hover::after,
+.button_link:focus::after {
+  content: " →";
 }
 
 .card_volunteer_list {
@@ -175,10 +285,43 @@ li {
   }
 }
 
+.link_styles {
+  /* Link states */
+
+  a {
+    color: #ffffff;
+    text-underline-offset: 0.25rem;
+  }
+
+  a:visited {
+    color: #e9d8f3;
+    font-weight: bold;
+  }
+
+  a:active {
+    color: #fad1d9;
+    font-style: italic;
+  }
+
+  a:hover {
+    color: #ffffff;
+    font-weight: bold;
+    text-underline-offset: 0.5rem;
+  }
+
+  a:focus {
+    border-spacing: 0.5rem;
+    border: 0.5rem solid ##ffffff;
+    color: #ffffff;
+    font-weight: bold;
+  }
+}
+
 .card_volunteer {
-  background-color: #5bcefa;
+  background-color: #6e0070;
   border-radius: 1.25rem;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  color: #ffffff;
   padding: 1.5rem;
 
   h3 {
@@ -195,14 +338,46 @@ li {
   }
 }
 
-.contact_info_links {
-  padding: 0;
-  list-style-type: none;
+.footer-cta {
+  background-color: #6e0070;
+  margin-top: 3rem;
+  padding: 3rem;
 
-  li > a {
-    color: black;
-    text-decoration: none;
-    margin-bottom: 1.5rem;
+  h2 {
+    color: #ffffff;
+    font-size: 2rem;
+  }
+
+  .button_link {
+    color: #ffffff;
+    background-color: transparent;
+  }
+
+  .button_link:hover,
+  .button_link:focus {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #6e0070;
+  }
+
+  .flex {
+    gap: 1.5rem;
+  }
+
+  @media screen and (min-width: 1100px) {
+    margin-top: 0;
+
+    h2 {
+      margin: 0;
+    }
+
+    .flex {
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: fit-content;
+    }
   }
 }
 
@@ -221,4 +396,57 @@ li {
   justify-content: space-between;
   list-style-type: none;
   padding: 0;
+
+  @media screen and (min-width: 650px) {
+    justify-content: start;
+
+    li {
+      margin-right: 1rem;
+    }
+  }
+}
+
+.contact_footer {
+  background-color: black;
+  color: #ffffff;
+
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  h2 + p {
+    color: #e9d8f3;
+  }
+
+  small,
+  .social_media_list li a {
+    font-size: 0.875rem;
+  }
+
+  @media screen and (min-width: 650px) {
+    padding: 3rem 0;
+
+    .grid {
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      justify-items: center;
+    }
+  }
+
+  @media screen and (min-width: 1100px) {
+    padding: 3rem 0;
+
+    .grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+}
+
+.contact_info_links {
+  padding: 0;
+  list-style-type: none;
+
+  li {
+    margin: 0.5rem 0;
+  }
 }
