@@ -48,6 +48,7 @@ li {
   font-style: normal;
 }
 
+/* .typography */
 .copy {
   h1,
   h2,
@@ -89,11 +90,14 @@ li {
   }
 }
 
+/* wordmark */
 .name {
   text-decoration: underline;
   text-decoration-color: #e9d8f3;
   text-underline-offset: 0.5rem;
 }
+
+/* card--blue */
 
 .baby_blue {
   color: #07222c;
@@ -107,6 +111,8 @@ li {
   }
 }
 
+/* card--pink */
+
 .pink {
   background-color: #f5a9b8;
   color: #370b0f;
@@ -118,6 +124,8 @@ li {
     color: #ffffff;
   }
 }
+
+/* card--white */
 
 .white {
   color: #262626;
@@ -131,6 +139,8 @@ li {
   }
 }
 
+/* linkbutton--purple */
+/* move near linkbutton */
 .purple {
   color: #6e0070;
   background-color: white;
@@ -187,6 +197,8 @@ li {
   gap: 3rem;
 }
 
+/* card__list */
+
 .card_projects_list {
   .card_project {
     align-items: start;
@@ -197,6 +209,8 @@ li {
     padding: 0 2rem;
   }
 }
+
+/* card */
 
 .card_project {
   border-radius: 1.25rem;
@@ -222,6 +236,8 @@ li {
   }
 }
 
+/* card__picture */
+
 .card_project picture {
   background-color: transparent;
 
@@ -230,6 +246,8 @@ li {
     flex-basis: 70%;
   }
 }
+
+/* card__img */
 
 .card_project img {
   border-top-left-radius: 1.25rem;
@@ -252,6 +270,7 @@ li {
   }
 }
 
+/* card__body */
 .card_project_body {
   background-color: inherit;
   border-bottom-left-radius: 1.25rem;
@@ -260,6 +279,8 @@ li {
   padding: 1.5rem;
 }
 
+/* linkbutton */
+/* move up near .purple rule */
 .button_link {
   border-radius: 5.25rem;
   border: 3px solid;
@@ -291,6 +312,7 @@ li {
   }
 }
 
+/* typography__link */
 .link_styles {
   /* Link states */
 
@@ -323,6 +345,7 @@ li {
   }
 }
 
+/* highlight */
 .card_volunteer {
   background-color: #6e0070;
   border-radius: 1.25rem;
@@ -344,6 +367,7 @@ li {
   }
 }
 
+/* footer__cta */
 .footer-cta {
   background-color: #6e0070;
   margin-top: 3rem;
@@ -387,6 +411,7 @@ li {
   }
 }
 
+/* links__contact */
 .contact_info_list {
   font-size: 1rem;
   list-style-type: none;
@@ -397,6 +422,7 @@ li {
   }
 }
 
+/* links__social */
 .social_media_list {
   display: flex;
   justify-content: space-between;
@@ -412,6 +438,7 @@ li {
   }
 }
 
+/* footer */
 .contact_footer {
   background-color: black;
   color: #ffffff;
