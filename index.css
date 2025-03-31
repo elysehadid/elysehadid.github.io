@@ -90,6 +90,7 @@ li {
 }
 
 .typography__link--dark {
+  /* Link styles for elements with dark backgrounds, e.g. footer, highlight cards. */
   a {
     color: #ffffff;
     text-underline-offset: 0.25rem;
