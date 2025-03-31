@@ -89,6 +89,36 @@ li {
   }
 }
 
+.typography__link--dark {
+  a {
+    color: #ffffff;
+    text-underline-offset: 0.25rem;
+  }
+
+  a:visited {
+    color: #e9d8f3;
+    font-weight: bold;
+  }
+
+  a:active {
+    color: #fad1d9;
+    font-style: italic;
+  }
+
+  a:hover {
+    color: #ffffff;
+    font-weight: bold;
+    text-underline-offset: 0.5rem;
+  }
+
+  a:focus {
+    border-spacing: 0.5rem;
+    border: 0.5rem solid ##ffffff;
+    color: #ffffff;
+    font-weight: bold;
+  }
+}
+
 .wordmark {
   text-decoration: underline;
   text-decoration-color: #e9d8f3;
@@ -293,6 +323,7 @@ li {
   color: #ffffff;
 }
 
+/* need a better name for this */
 .card_volunteer_list {
   display: flex;
   flex-direction: column;
@@ -304,39 +335,6 @@ li {
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: center;
-  }
-}
-
-/* typography__link */
-.link_styles {
-  /* Link states */
-
-  a {
-    color: #ffffff;
-    text-underline-offset: 0.25rem;
-  }
-
-  a:visited {
-    color: #e9d8f3;
-    font-weight: bold;
-  }
-
-  a:active {
-    color: #fad1d9;
-    font-style: italic;
-  }
-
-  a:hover {
-    color: #ffffff;
-    font-weight: bold;
-    text-underline-offset: 0.5rem;
-  }
-
-  a:focus {
-    border-spacing: 0.5rem;
-    border: 0.5rem solid ##ffffff;
-    color: #ffffff;
-    font-weight: bold;
   }
 }
 
