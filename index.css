@@ -171,7 +171,7 @@ li {
 }
 
 .card__list {
-  .card_project {
+  .card {
     align-items: start;
     margin: 2rem 0;
   }
@@ -181,9 +181,7 @@ li {
   }
 }
 
-/* card */
-
-.card_project {
+.card {
   border-radius: 1.25rem;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   display: flex;
@@ -207,9 +205,7 @@ li {
   }
 }
 
-/* card__picture */
-
-.card_project picture {
+.card__picture {
   background-color: transparent;
 
   @media screen and (min-width: 650px) {
@@ -218,9 +214,7 @@ li {
   }
 }
 
-/* card__img */
-
-.card_project img {
+.card__image {
   border-top-left-radius: 1.25rem;
   border-top-right-radius: 1.25rem;
   height: auto;
@@ -241,8 +235,7 @@ li {
   }
 }
 
-/* card__body */
-.card_project_body {
+.card__body {
   background-color: inherit;
   border-bottom-left-radius: 1.25rem;
   border-bottom-right-radius: 1.25rem;
