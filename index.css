@@ -400,7 +400,7 @@ li {
 }
 
 /* links__social */
-.social_media_list {
+.links__social {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -429,7 +429,7 @@ li {
   }
 
   small,
-  .social_media_list li a {
+  .links__social li a {
     font-size: 0.875rem;
   }
 
