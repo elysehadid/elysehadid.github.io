@@ -266,6 +266,7 @@ li {
 .linkbtn {
   border-radius: 5.25rem;
   border: 3px solid;
+  background-color: inherit;
   color: inherit;
   display: block;
   font-size: 1.25rem;
@@ -283,13 +284,13 @@ li {
 .linkbtn--purple {
   color: #6e0070;
   background-color: white;
+}
 
-  a:hover,
-  a:focus {
-    background-color: #6e0070;
-    border-color: #6e0070;
-    color: #ffffff;
-  }
+.linkbtn--purple:focus,
+.linkbtn--purple:hover {
+  background-color: #6e0070;
+  border-color: #6e0070;
+  color: #ffffff;
 }
 
 .card_volunteer_list {
