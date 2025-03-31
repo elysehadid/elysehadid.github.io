@@ -137,20 +137,6 @@ li {
   }
 }
 
-/* linkbutton--purple */
-/* move near linkbutton */
-.purple {
-  color: #6e0070;
-  background-color: white;
-
-  a:hover,
-  a:focus {
-    background-color: #6e0070;
-    border-color: #6e0070;
-    color: #ffffff;
-  }
-}
-
 .visually-hidden {
   /* From the a11y project: https://www.a11yproject.com/posts/how-to-hide-content/ */
   clip: rect(0 0 0 0);
@@ -277,9 +263,7 @@ li {
   padding: 1.5rem;
 }
 
-/* linkbutton */
-/* move up near .purple rule */
-.button_link {
+.linkbtn {
   border-radius: 5.25rem;
   border: 3px solid;
   color: inherit;
@@ -291,9 +275,21 @@ li {
   width: fit-content;
 }
 
-.button_link:hover::after,
-.button_link:focus::after {
+.linkbtn:hover::after,
+.linkbtn:focus::after {
   content: " →";
+}
+
+.linkbtn--purple {
+  color: #6e0070;
+  background-color: white;
+
+  a:hover,
+  a:focus {
+    background-color: #6e0070;
+    border-color: #6e0070;
+    color: #ffffff;
+  }
 }
 
 .card_volunteer_list {
@@ -376,13 +372,13 @@ li {
     font-size: 2rem;
   }
 
-  .button_link {
+  .linkbtn {
     color: #ffffff;
     background-color: transparent;
   }
 
-  .button_link:hover,
-  .button_link:focus {
+  .linkbtn:hover,
+  .linkbtn:focus {
     background-color: #ffffff;
     border-color: #ffffff;
     color: #6e0070;
