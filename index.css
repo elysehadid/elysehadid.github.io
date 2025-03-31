@@ -389,9 +389,7 @@ li {
     }
   }
 }
-
-/* links__contact */
-.contact_info_list {
+.links__contact {
   font-size: 1rem;
   list-style-type: none;
   padding: 0;
@@ -451,14 +449,5 @@ li {
     .grid {
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-  }
-}
-
-.contact_info_links {
-  padding: 0;
-  list-style-type: none;
-
-  li {
-    margin: 0.5rem 0;
   }
 }
