@@ -243,9 +243,7 @@ li {
   padding: 1.5rem;
 }
 
-/* card--blue */
-
-.baby_blue {
+.card--blue {
   color: #07222c;
   background-color: #5bcefa;
 
@@ -257,9 +255,7 @@ li {
   }
 }
 
-/* card--pink */
-
-.pink {
+.card--pink {
   background-color: #f5a9b8;
   color: #370b0f;
 
@@ -271,9 +267,7 @@ li {
   }
 }
 
-/* card--white */
-
-.white {
+.card--white {
   color: #262626;
   background-color: white;
 
