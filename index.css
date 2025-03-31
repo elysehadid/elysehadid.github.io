@@ -126,48 +126,6 @@ li {
   text-underline-offset: 0.5rem;
 }
 
-/* card--blue */
-
-.baby_blue {
-  color: #07222c;
-  background-color: #5bcefa;
-
-  a:hover,
-  a:focus {
-    background-color: #07222c;
-    border-color: #07222c;
-    color: #ffffff;
-  }
-}
-
-/* card--pink */
-
-.pink {
-  background-color: #f5a9b8;
-  color: #370b0f;
-
-  a:hover,
-  a:focus {
-    background-color: #370b0f;
-    border-color: #370b0f;
-    color: #ffffff;
-  }
-}
-
-/* card--white */
-
-.white {
-  color: #262626;
-  background-color: white;
-
-  a:hover,
-  a:focus {
-    background-color: #262626;
-    border-color: #262626;
-    color: #ffffff;
-  }
-}
-
 .visually-hidden {
   /* From the a11y project: https://www.a11yproject.com/posts/how-to-hide-content/ */
   clip: rect(0 0 0 0);
@@ -212,9 +170,7 @@ li {
   gap: 3rem;
 }
 
-/* card__list */
-
-.card_projects_list {
+.card__list {
   .card_project {
     align-items: start;
     margin: 2rem 0;
@@ -292,6 +248,48 @@ li {
   border-bottom-right-radius: 1.25rem;
   color: inherit;
   padding: 1.5rem;
+}
+
+/* card--blue */
+
+.baby_blue {
+  color: #07222c;
+  background-color: #5bcefa;
+
+  a:hover,
+  a:focus {
+    background-color: #07222c;
+    border-color: #07222c;
+    color: #ffffff;
+  }
+}
+
+/* card--pink */
+
+.pink {
+  background-color: #f5a9b8;
+  color: #370b0f;
+
+  a:hover,
+  a:focus {
+    background-color: #370b0f;
+    border-color: #370b0f;
+    color: #ffffff;
+  }
+}
+
+/* card--white */
+
+.white {
+  color: #262626;
+  background-color: white;
+
+  a:hover,
+  a:focus {
+    background-color: #262626;
+    border-color: #262626;
+    color: #ffffff;
+  }
 }
 
 .linkbtn {
