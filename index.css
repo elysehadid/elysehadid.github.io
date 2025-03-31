@@ -344,8 +344,7 @@ li {
   }
 }
 
-/* footer__cta */
-.footer-cta {
+.footer__cta {
   background-color: #6e0070;
   margin-top: 3rem;
   padding: 3rem;
@@ -413,8 +412,7 @@ li {
   }
 }
 
-/* footer */
-.contact_footer {
+.footer {
   background-color: black;
   color: #ffffff;
 
