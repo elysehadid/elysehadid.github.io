@@ -2,6 +2,10 @@
 
 This is a multi-purpose portfolio for my job hunt, freelance clients, and consulting work.
 
+## How to install and run this project
+
+Since this is a static website, you can download the repo and open `index.html` with the browser of your choice. Ta-da!
+
 ## Tech stack
 
 I love JavaScript (and React!) but I wanted to provide an experience that doesn't require JavaScript. I also wanted to make sure the website loads as fast as possible and progressively enhanced.
@@ -32,6 +36,19 @@ In my footer, I list out my contact info in text just in case users aren't famil
 
 Ideally, this information addresses any objections that people may have about working with me. They can see my breadth of experience, my passion for the industry as evidenced by my volunteer work, and they have multiple calls to action to get in touch if they are interested in working with me.
 
+## Planned changes and updates
+
+* Add testimonials
+* Add info about the tech stack, platforms and libraries I work with
+* Add a picture of myself!
+
+## Contribute to the Project
+
+This project is a work-in-progress and I'm always seeking feedback. Feel free to open an issue or e-mail me.
+
+## Credit
+
+Attributions will go here with specific callouts, and thanks to people.
 
 ## Get in touch
 
