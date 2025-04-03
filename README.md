@@ -8,16 +8,23 @@ Since this is a static website, you can download the repo and open `index.html` 
 
 ## Tech stack
 
+This is a static website built with HTML and CSS.
+
 I love JavaScript (and React!) but I wanted to provide an experience that doesn't require JavaScript. I also wanted to make sure the website loads as fast as possible and progressively enhanced.
 
-This is a static website built with HTML and CSS. I progressively enhance the user experience with a Google web font for browsers that support it, and I use best practices to serve images in WebP format when possible. I also use this CSS reset from Josh Comeau to ensure the experience is consistent across browsers.
+I progressively enhance the user experience with a Google web font for browsers that support it, and I use best practices to serve images in WebP format when possible. I also use a CSS reset created by Josh Comeau to ensure the experience is consistent across browsers.
 
 ## Design
 
 The design of the page was inspired by Josh Comeua, Wistia, and my friend Nicole Gathany's portfolio.
 
-The website features a one-page layout with a sticky sidebar. For desktop users, I can almost guarantee that my contact info is available at all times. For mobile users, I wanted to ensure that the information about me on is legible, concise and easy to digest.
+### Layout
 
+The website features a one-page layout with a sticky sidebar. For desktop users, I can almost guarantee that my contact info is available at all times. For mobile users, I wanted to ensure that the copy is legible, concise and easy to digest.
+
+### Color scheme
+
+This website has some not-so-subtle easter eggs and cues to my gender identity. I am a demisexual transwoman. I specifically use black and purple in reference to the demisexual flag. The purple used for headings and buttons comes from the demisexual flag, and the projects featured in the Work section use the colors of the trans flag. 
 
 ### Copy
 
@@ -41,6 +48,7 @@ Ideally, this information addresses any objections that people may have about wo
 * Add testimonials
 * Add info about the tech stack, platforms and libraries I work with
 * Add a picture of myself!
+* Turn this website into a template that can be re-used by others!
 
 ## Contribute to the Project
 
