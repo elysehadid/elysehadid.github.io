@@ -20,6 +20,13 @@ The design of the page was inspired by [Josh W. Comeau](https://www.joshwcomeau.
 
 The website features a one-page layout with a sticky sidebar. For desktop users, I can almost guarantee that my contact info is visible, or not too far off-screen, at all times. For mobile users, I wanted to ensure that the copy is legible, concise and easy to digest.
 
+![Layout of my website showing my name, description, and a sidebar with call to action](https://github.com/user-attachments/assets/b0197b22-8ad5-419f-8a74-82806e8b1015)
+
+![Layout of my featured projects](https://github.com/user-attachments/assets/02652e29-ffc0-453b-807f-48cc4c3a21ef)
+
+![Layout of my volunteer work and footer of the website](https://github.com/user-attachments/assets/e8071a4e-d505-4305-80e0-a53aa6acb5ab)
+
+
 ### Color scheme
 
 This website has some not-so-subtle easter eggs and cues to my gender identity. I am a demisexual transwoman. The purple used for headings and links comes from the [demisexual flag](https://www.flagcolorcodes.com/demisexual), and the cards used to feature my projects use the colors of the [transgender flag](https://www.flagcolorcodes.com/transgender).
