@@ -10,11 +10,13 @@ Since this is a static website, you can download the repo and open `index.html` 
 
 This is a static website built with plain old HTML and CSS.
 
-I love JavaScript (and React!) but I wanted to provide an experience that doesn't _require_ JavaScript. I also wanted to make sure the website loads as fast as possible. I progressively enhance the user experience with a Google web font for browsers that support it, and I serve images in WebP format when possible. I also use a [CSS reset created by Josh Comeau](https://www.joshwcomeau.com/css/custom-css-reset/) to ensure the user experience and layout are consistent across browsers.
+I love JavaScript (and React!) but I wanted to provide an experience that doesn't _require_ JavaScript. I also wanted to make sure the website loads as fast as possible.
+
+I progressively enhance the user experience with a Google web font for browsers that support it, and I serve images in WebP format when possible.
 
 ## Design and layout
 
-The design of the page was inspired by [Josh W. Comeau](https://www.joshwcomeau.com/), [Wistia](https://wistia.com/), and my friend [Nicole Gathany's](https://nicolegathany.com/) portfolio.
+The design of the page was inspired by [Josh W. Comeau](https://www.joshwcomeau.com/), [Wistia](https://wistia.com/), and my friend [Nicole Gathany's](https://nicolegathany.com/) portfolio. I also use a [CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/) from Josh Comeau to ensure the user experience and layout are consistent across browsers.
 
 The website features a one-page layout with a sticky sidebar. For desktop users, I can almost guarantee that my contact info is visible, or not too far off-screen, at all times. For mobile users, I wanted to ensure that the copy is legible, concise and easy to digest.
 
@@ -41,7 +43,9 @@ Ideally, this information addresses any objections that people may have about wo
 
 ## Challenges
 
-This project is stripped down to its essentials to get me in the practice of working iteratively. The goal was to get started right away writing markup with very little emphasis on planning or foresight. Additionally, traditional advice from [100Devs](https://leonnoel.com/100devs/) is to use a template for your portfolio. However, since this portfolio is trying to do so many things, I felt compelled to create and design my own.
+This project is stripped down to its essentials to get me in the practice of working iteratively. The goal was to get started right away writing markup with very little emphasis on planning or foresight.
+
+Additionally, traditional advice from [100Devs](https://leonnoel.com/100devs/) is to use a template for your portfolio. However, since this portfolio is trying to do so many things, I felt compelled to create and design my own.
 
 Some of the challenges I faced include:
 
