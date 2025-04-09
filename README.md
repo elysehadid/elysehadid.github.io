@@ -10,9 +10,7 @@ Since this is a static website, you can download the repo and open `index.html` 
 
 This is a static website built with plain old HTML and CSS.
 
-I love JavaScript (and React!) but I wanted to provide an experience that doesn't _require_ JavaScript. I also wanted to make sure the website loads as fast as possible and progressively enhanced.
-
-I progressively enhance the user experience with a Google web font for browsers that support it, and I use best practices to serve images in WebP format when possible. I also use a CSS reset created by Josh Comeau to ensure the experience is consistent across browsers.
+I love JavaScript (and React!) but I wanted to provide an experience that doesn't _require_ JavaScript. I also wanted to make sure the website loads as fast as possible. I progressively enhance the user experience with a Google web font for browsers that support it, and I serve images in WebP format when possible. I also use a [CSS reset created by Josh Comeau](https://www.joshwcomeau.com/css/custom-css-reset/) to ensure the user experience and layout are consistent across browsers.
 
 ## Design and layout
 
@@ -22,7 +20,7 @@ The website features a one-page layout with a sticky sidebar. For desktop users,
 
 ### Color scheme
 
-This website has some not-so-subtle easter eggs and cues to my gender identity. I am a demisexual transwoman. I specifically use black and purple in reference to the [demisexual flag](https://www.flagcolorcodes.com/demisexual). The purple used for headings and links comes from the demisexual flag, and the projects featured in the Work section use the colors of the [transgender flag](https://www.flagcolorcodes.com/transgender).
+This website has some not-so-subtle easter eggs and cues to my gender identity. I am a demisexual transwoman. The purple used for headings and links comes from the [demisexual flag](https://www.flagcolorcodes.com/demisexual), and the cards used to feature my projects use the colors of the [transgender flag](https://www.flagcolorcodes.com/transgender).
 
 ### Copy
 
@@ -50,7 +48,7 @@ Some of the challenges I faced include:
 - Finding design inspiration to mimick and build off of
 - Finding a font/typeface that felt professional and still had a sense of whimsy
 - Narrowing down information to include about myself so the site is easy to skim
-- Meeting/maintaining WCAG color contrast standards while still being able to make the site colorful
+- Meeting/maintaining WCAG color contrast standards while still being able to give the site a fun splash of color
 - Writing simple CSS that is easy to extend and refactor
 - Avoiding hosting any media; I don't use a CMS for assets or content, so I had to get creative in a few places
 - Avoiding getting stuck: I opted to roll with whatever I end up making instead of being a perfectionist
@@ -59,6 +57,7 @@ Some of the challenges I faced include:
 
 - Add a picture of myself!
 - Add testimonials from previous clients
+- Add CSS animations for elements like my link buttons
 - For each project: add info about the tech stack, platforms and libraries I used
 - Turn this website into a template that can be re-used by my fellow devs at [100Devs](https://leonnoel.com/100devs/)!
 
@@ -70,6 +69,7 @@ This project is a work-in-progress and I'm always seeking feedback. Feel free to
 - notice a dead link somewhere
 - have resume advice
 - have advice on how I can improve the layout of the page, or specific elements
+- have other thoughts or feedback that isn't listed here
 
 ## Credit
 
