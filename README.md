@@ -16,9 +16,9 @@ I progressively enhance the user experience with a Google web font for browsers 
 
 ## Design and layout
 
-The design of the page was inspired by Josh Comeua, Wistia, and my friend Nicole Gathany's portfolio.
+The design of the page was inspired by [Josh W. Comeau](https://www.joshwcomeau.com/), [Wistia](https://wistia.com/), and my friend [Nicole Gathany's](https://nicolegathany.com/) portfolio.
 
-The website features a one-page layout with a sticky sidebar. For desktop users, I can almost guarantee that my contact info is available at all times. For mobile users, I wanted to ensure that the copy is legible, concise and easy to digest.
+The website features a one-page layout with a sticky sidebar. For desktop users, I can almost guarantee that my contact info is visible, or not too far off-screen, at all times. For mobile users, I wanted to ensure that the copy is legible, concise and easy to digest.
 
 ### Color scheme
 
@@ -43,19 +43,23 @@ Ideally, this information addresses any objections that people may have about wo
 
 ## Challenges
 
-This project is stripped down to its essentials to get me in the practice of working iteratively. The goal was to get started right away writing markup with very little emphasis on planning or foresight. Some of the challenges I faced included:
+This project is stripped down to its essentials to get me in the practice of working iteratively. The goal was to get started right away writing markup with very little emphasis on planning or foresight. Additionally, traditional advice from [100Devs](https://leonnoel.com/100devs/) is to use a template for your portfolio. However, since this portfolio is trying to do so many things, I felt compelled to create and design my own.
+
+Some of the challenges I faced include:
 
 - Finding design inspiration to mimick and build off of
 - Finding a font/typeface that felt professional and still had a sense of whimsy
 - Narrowing down information to include about myself so the site is easy to skim
 - Meeting/maintaining WCAG color contrast standards while still being able to make the site colorful
-- Writing simple CSS that is easy to extend
+- Writing simple CSS that is easy to extend and refactor
+- Avoiding hosting any media; I don't use a CMS for assets or content, so I had to get creative in a few places
+- Avoiding getting stuck: I opted to roll with whatever I end up making instead of being a perfectionist
 
 ## Planned changes and updates
 
-- Add testimonials
-- For each project: add info about the tech stack, platforms and libraries I work with
 - Add a picture of myself!
+- Add testimonials from previous clients
+- For each project: add info about the tech stack, platforms and libraries I used
 - Turn this website into a template that can be re-used by my fellow devs at [100Devs](https://leonnoel.com/100devs/)!
 
 ## Contribute to the project
@@ -69,8 +73,18 @@ This project is a work-in-progress and I'm always seeking feedback. Feel free to
 
 ## Credit
 
-Attributions will go here with specific callouts, and thanks to people.
+In no particular order, here are all of the people, places, and things I owe credit to for the creation and execution of this project!
+
+- [100Devs](https://leonnoel.com/100devs/): for creating many beautiful portfolios and supporting me on my lifelong journey of learning as a developer
+- [Jonathan Stark](https://jonathanstark.com/): inspiring me to commit to my journey as a consultant, and always offering invaluable advice!
+- [Josh W. Comeau](https://www.joshwcomeau.com/): inspiring the design, layout, font choice, and overall whimsical feel of the site.
+- My ex-wife: even though you don't code anymore, you've always been supportive in my journey!
+- [Nicole Gathany](https://nicolegathany.com/): I used her website as inspiration
+- [Paul Boag](https://boagworld.com/): running a great newsletter and community that have shaped my perspective and thoughts on user experience over the years.
+- [The Futur](https://www.youtube.com/channel/UC-b3c7kxa5vU-bnmaROgvog): piqueing my interest in design again and putting out tens of hours of content to consume and learn from.
+- [thoughtbot](https://thoughtbot.com/): inspiration on the website layout, and teaching me many valuable skills as a burgeoning product developer and consultant!
+- [Wistia](https://wistia.com/): inspiring the design of some elements on the website and **redacted**.
 
 ## Get in touch
 
-If you live in Portland or the Metro Portland area, I'd love to meet you in person! Feel free to call or text me at [(971) 205-2190](tel:9712052190) or e-mail me at [elysehadid@gmail.com](mailto:elysehadid@gmail.com). You can also book a video call with me.
+If you live in Portland or the Metro Portland area, I'd love to meet you in person! Feel free to call or text me at [(971) 205-2190](tel:9712052190) or e-mail me at [elysehadid@gmail.com](mailto:elysehadid@gmail.com). You can also [book a video call with me](https://calendly.com/elysehadid/coffeechat).
